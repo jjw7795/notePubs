@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+/* === header =========================================================== */
+#header{
+	flex-shrink:0;
+	display:flex;
+	justify-content:space-between;
+	padding:0px 20px;
+	align-items:center;
+	height: 70px;
+	background: #fff;
+	font-family: "Noto Sans Medium", AppleSDGothicNeo-Regular, "Malgun Gothic", "맑은 고딕", dotum, 돋움, sans-serif;
+	border-bottom: 1px solid #ddd;
+	
+	transition: height 1s;
+}
+
+	.logo{
+		width:113px;
+		height:28px;
+		background: url("/images/logo-ldpi.png") no-repeat center;
+	}

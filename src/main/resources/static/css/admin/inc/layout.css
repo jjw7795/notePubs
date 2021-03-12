@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url("../../reset.css");
+@import url("../../component.css");
+@import url("../../style.css");
+@import url("../../util.css");
+@import url("../../inc/header.css");
+@import url("aside.css");
+@import url("../../inc/footer.css");
+
+html,body{
+	height: 100%;
+	background: #e9e9e9;
+}
+
+#body{
+	max-width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	display: flex;
+}
+
+#aside{
+	flex-basis: 250px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+main{
+	flex-grow: 1;
+	flex-shrink: 1;
+	padding:20px 0px 50px 20px; 
+}

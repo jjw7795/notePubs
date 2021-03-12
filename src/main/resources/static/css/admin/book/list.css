@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* === < /book/list >===================================================== */
+.book-shelf{
+    --margin-top: 20px;
+}
+
+.book-shelf>header{    
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;   
+}
+
+.book-shelf>header>h1{
+    flex-grow: 1;
+    font-family: '留묒� 怨좊뵓', '怨좊뵓', sans-serif;
+    font-size: 1.5em;
+}
+
+.book-shelf .book-list{
+   
+    background: #fff;
+    padding:40px;
+    display: flex;    
+    flex-wrap: nowrap;
+    overflow: visible;
+}
+
+.book-shelf .book-list .book{    
+    position: relative;    
+    flex-shrink: 0;
+}
+.book-shelf .book-list .book>h1{    
+    font-family: 'Jua', '怨좊뵓', cursive;
+    font-size: 20px;
+}
+
+.book-shelf .book-list .book .info{
+    display: grid;
+    grid-template-columns:150px 1fr;    
+    grid-column-gap: 20px;
+    --align-items: center;
+    
+    width:350px;
+    height: 200px;
+    flex-wrap: wrap;    
+    position: relative;        
+    margin-top: 10px; 
+    
+}
+
+
+.book-shelf .book-list .book .info .img{   
+   
+    grid-row : 1/5;
+    grid-column: 1;
+
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px #797979;    
+
+}
+
+.book-shelf .book-list .book .info .img img{
+    width: inherit;
+    height: inherit;
+    object-fit:cover;
+    
+}
+
+.book-shelf .book-list .book .info .writerId{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.book-shelf .book-list .book .info .aaa{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.book-shelf .book-list .book .info .button{
+    grid-column: 2;
+    grid-row: 3;
+    
+}

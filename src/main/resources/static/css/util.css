@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* --- display ------------------------------- */
+.d-none, hidden{
+    display: none;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* --- flex ------------------------------- */
+.flex-align-items-center{
+    align-items: center;
+}
+
+.flex-grow-1{
+    flex-grow:1;
+}
+
+
+/* --- margin ----------------------------------- */
+
+.margin-top{
+	margin-top:10px;
+}
+
+/* === text ========================== */
+
+.text-strong{
+	font-weight: bold;
+}
+
+/* --- text align -------------------------- */
+.text-align-center{
+	text-align: center;
+}
+
+.text-align-right{
+	text-align: right;
+}
+
+.text-center,
+.inline-center{
+	text-align:center;
+}
+
+.text-right,
+.inline-right{
+	text-align:right;
+}
+
+/* ---------------- margin ----------------------------------------------- */
+.margin-top{
+	margin-top:10px;
+}
+
+.margin-top-2{
+	margin-top:5px;
+}
+
+.margin-left{
+	margin-left:10px;
+}
+
+.margin-right{
+	margin-right:10px;
+}
+
+.margin-bottom{
+	margin-bottom:10px;
+}
+
+/* ---------------- text ----------------------------------------------- */
+.text-align-center{
+	text-align: center;
+}
+
+/* -------------------------------------------------------- */
+.icon{
+	width:24px;
+	height: 24px;
+	text-decoration:none;	
+	display: inline-block;
+	text-indent: -999px;
+	overflow:hidden;
+    border:none;
+    vertical-align: middle;
+    /* border-radius: 12px; */
+}
+
+.camera-icon {	
+	background:url("../images/icon-set.png") no-repeat -312px -24px;
+}
+
+.lock-icon {	
+	background:url("../images/icon-set.png") no-repeat -96px 0px;
+}
+
+.unlock-icon {	
+	background:url("../images/icon-set.png") no-repeat -72px 0px;
+}
+
+.hamburger-icon {	
+	background:url("../images/icon-set.png") no-repeat 0px 0px;
+}
+
+.none-icon-xl{
+	width:inherit;
+	height: inherit;
+	text-decoration:none;
+	display: initial;
+	text-indent: 0px;
+    background:none;
+}
+
+
+
+
+
+
+/* --- layout ---------------------------------------------------------------------------------------- */
+.inline-block{
+	display: inline-block;
+}
+
+.flex-list{
+	display: flex;
+}
+
+/* --- alignment ------------------------------------------------ */
+.text-center{
+	text-align: center;
+}
+
+.padding-bottom{
+	padding-bottom: 20px;
+}
+
+.margin-bottom{
+	padding-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.notepubs.web.dao.PlatformDao">
+	
+	<select id ="getList" resultType="com.notepubs.web.entity.Platform">
+		select * from Platform
+	</select>
+	
+	<select id ="get" resultType="com.notepubs.web.entity.Platform">
+		select * from Platform
+	</select>
+	
+	<select id ="insert" resultType="com.notepubs.web.entity.Platform">
+		select * from Platform
+	</select>
+	
+	<select id ="update" resultType="com.notepubs.web.entity.Platform">
+		select * from Platform
+	</select>
+	
+	<select id ="delete" resultType="com.notepubs.web.entity.Platform">
+		select * from Platform
+	</select>
+	
+</mapper>
